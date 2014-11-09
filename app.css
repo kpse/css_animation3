@@ -1,0 +1,897 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    perspective: 1200px;
+  }
+  .swiper-wrapper {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  .swiper-slide {
+    position: relative;
+    background: rgba(0,0,0,0.6);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+
+.swiper-pages{
+	/*background:url('../img/bg.jpg') no-repeat;*/
+	background:#000;
+	background-size: cover;
+	max-width: 640px;
+}
+
+.swiper-slide{
+	position: relative;
+	overflow: hidden;
+}
+
+
+/*面板0*/
+.swiper-panel-0{
+	background:url("panel_0_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_0_bg.jpg*/ no-repeat;
+	background-size: 100% 100%;
+}
+	.swiper-panel-0 .title1{
+		position: absolute;
+		top:10.5468%;
+	}
+	.swiper-panel-0 .title2{
+		position: absolute;
+		top:54.78%;
+	}
+	.swiper-panel-0 .title1 img,.swiper-panel-0 .title2 img{
+		width: 100%;
+	}
+
+/*面板1*/
+.swiper-panel-1{
+	background:url("panel_1_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_1_bg.jpg*/ no-repeat;
+	background-size: 100% 100%;
+}
+	.swiper-panel-1 .title1{
+		position: absolute;
+		top:-28.91%;
+	}
+	.swiper-panel-1 .title2{
+		position: absolute;
+		top:-20.68%;
+	}
+	.swiper-panel-1 .title3{
+		position:absolute;
+		bottom:-100%;
+		}
+	.swiper-panel-1 .title1 img,.swiper-panel-1 .title2 img,.swiper-panel-1 .title3 img{
+		width: 100%;
+	}
+
+
+/*面板2*/
+.swiper-panel-2{
+	background:url("panel_2_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_2_bg.jpg*/ center bottom no-repeat;
+	background-size: cover;
+}
+	.swiper-panel-2 .title1{
+		position: absolute;
+		top:-23.3%;
+	}
+	.swiper-panel-2 .title2{
+		position: absolute;
+		top:-33.7%;
+	}
+	.swiper-panel-2 .title1 img,.swiper-panel-2 .title2 img{
+		width: 100%;
+	}
+	.swiper-panel-2 .img2_bg img{width:100%;}
+
+/*面板3*/
+.swiper-panel-3{
+	background:url("panel_3_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_3_bg.jpg*/ center bottom no-repeat;
+	background-size: cover;
+}
+	.swiper-panel-3 .title1{
+		position: absolute;
+		top:-23.3%;
+	}
+	.swiper-panel-3 .title2{
+		position: absolute;
+		top:-33.7%;
+	}
+	.swiper-panel-3 .title1 img,.swiper-panel-3 .title2 img{
+		width: 100%;
+	}
+	.swiper-panel-3 .img2_bg img{width:100%;}
+ 
+/*面板4*/
+.swiper-panel-4{
+	background:url("panel_4_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_4_bg.jpg*/ center bottom no-repeat;
+	background-size: cover;
+}
+	.swiper-panel-4 .title1{
+		position: absolute;
+		/*top:-76.4%;*/
+        bottom:-16.6%;
+		z-index:1
+	}
+	.swiper-panel-4 .title2{
+		position: absolute;
+		/*top:-89.8%;*/
+        bottom:-16.6%;
+		z-index:1
+	}
+	.swiper-panel-4 .img2_bg{background:url("panel_4_bg2-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_4_bg2.jpg*/ center bottom no-repeat;background-size: cover;margin-left:10px; opacity:0; height:100%; position:relative; z-index:0}
+	.swiper-panel-4 .title1 img,.swiper-panel-4 .title2 img{
+		width: 100%;
+	}
+
+/*面板5*/
+.swiper-panel-5{
+	background:#000;
+}
+	.swiper-panel-5 .title1{
+		position: absolute;
+		/*top:-76.4%;*/
+        bottom:-16.6%;
+		z-index:2
+	}
+	.swiper-panel-5 .title2{
+		position: absolute;
+		/*top:-89.8%;*/
+        bottom:-16.6%;
+		z-index:2
+	}
+	.swiper-panel-5 .title1 img,.swiper-panel-5 .title2 img{
+		width: 100%;
+	}
+	.swiper-panel-5 .img2_bg0{
+	 background:url("panel_5_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_5_bg.jpg*/ no-repeat;
+	 background-size: cover;
+	 width:100%;
+	 height:100%;
+	 left:-100%;
+	 position:absolute;
+	 z-index:0;
+	}
+	.swiper-panel-5 .img2_bg{background:url("panel_5_bg2-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_5_bg2.jpg*/ no-repeat;background-size: cover; height:100%; position:absolute; z-index:1; width:100%;
+			  display:none;
+			  z-index:1;
+	  }
+	 .swiper-panel-5 .img2_bg_add{
+		   -webkit-animation: img2_bg5 5s infinite;
+		 -moz-animation: img2_bg5 5s infinite;
+		  -ms-animation: img2_bg5 5s infinite;
+		   -o-animation: img2_bg5 5s infinite;
+			  animation: img2_bg5 5s infinite;
+		  }
+	
+	@keyframes img2_bg5 {
+		0%{opacity: 0;}
+	20%  {opacity: .3;}
+	40%  {opacity: 1;}
+	50%  {opacity: .5;}
+	60%  {opacity: 1;}
+	80%  {opacity: .3;}
+	100% {opacity: 0;}
+	}
+	@-webkit-keyframes img2_bg5 {
+		0%{opacity: 0;}
+	20%  {opacity: .3;}
+	40%  {opacity: 1;}
+	50%  {opacity: .5;}
+	60%  {opacity: 1;}
+	80%  {opacity: .3;}
+	100% {opacity: 0;}
+	}
+	@-moz-keyframes img2_bg5 {
+		0%{opacity: 0;}
+	20%  {opacity: .3;}
+	40%  {opacity: 1;}
+	50%  {opacity: .5;}
+	60%  {opacity: 1;}
+	80%  {opacity: .3;}
+	100% {opacity: 0;}
+	}
+	@-ms-keyframes img2_bg5 {
+		0%{opacity: 0;}
+	20%  {opacity: .3;}
+	40%  {opacity: 1;}
+	50%  {opacity: .5;}
+	60%  {opacity: 1;}
+	80%  {opacity: .3;}
+	100% {opacity: 0;}
+	}
+	@-o-keyframes img2_bg5 {
+    0%{opacity: 0;}
+	20%  {opacity: .3;}
+	40%  {opacity: 1;}
+	50%  {opacity: .5;}
+	60%  {opacity: 1;}
+	80%  {opacity: .3;}
+	100% {opacity: 0;}
+	}
+
+/*面板6*/
+.swiper-panel-6{
+	background:url("panel_6_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_6_bg.jpg*/ center bottom no-repeat;
+	background-size: cover;
+}
+	.swiper-panel-6 .title1{
+		position: absolute;
+		/*top:-76.4%;*/
+        bottom:-16.6%;
+		z-index:1
+	}
+	.swiper-panel-6 .title2{
+		position: absolute;
+		/*top:-89.8%;*/
+        bottom:-16.6%;
+		z-index:1
+	}
+	.swiper-panel-6 .title1 img,.swiper-panel-6 .title2 img{
+		width: 100%;
+	}
+	.swiper-panel-6 .img2_bg{background:url("panel_6_bg2-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_6_bg2.jpg*/ center bottom no-repeat;background-size: cover; height:100%; position:relative; z-index:0; }
+	.swiper-panel-6 .img2_bg_add{
+		-webkit-animation: img2_bg6 3s ease 1;
+				   -moz-animation: img2_bg6 3s ease 1;
+					-ms-animation: img2_bg6 3s ease 1;
+					 -o-animation: img2_bg6 3s ease 1;
+						animation: img2_bg6 3s ease 1;
+						 opacity: 0;
+						 width:105%
+		}
+	  @keyframes img2_bg6 {
+		0%{transform: skew(0deg,0deg);opacity: 1;}
+	 50%{transform: skew(2deg,8deg);opacity: 1;}
+	 100%{transform: skew(-2deg,-8deg);opacity: 0;}
+	}
+	@-webkit-keyframes img2_bg6 {
+		0%{transform: skew(0deg,0deg);opacity: 1;}
+	 50%{transform: skew(2deg,8deg);opacity: 1;}
+	 100%{transform: skew(-2deg,-8deg);opacity: 0;}
+	}
+	@-moz-keyframes img2_bg6 {
+		0%{transform: skew(0deg,0deg);opacity: 1;}
+	 50%{transform: skew(2deg,8deg);opacity: 1;}
+	 100%{transform: skew(-2deg,-8deg);opacity: 0;}
+	}
+	@-ms-keyframes img2_bg6 {
+		0%{transform: skew(0deg,0deg);opacity: 1;}
+	 50%{transform: skew(2deg,8deg);opacity: 1;}
+	 100%{transform: skew(-2deg,-8deg);opacity: 0;}
+	}
+	@-o-keyframes img2_bg6 {
+        0%{transform: skew(0deg,0deg);opacity: 1;}
+	 50%{transform: skew(2deg,8deg);opacity: 1;}
+	 100%{transform: skew(-2deg,-8deg);opacity: 0;}
+	}
+
+/*面板7*/
+.swiper-panel-7{
+	background:url("panel_7_txt_4-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_7_txt_4.png*/ no-repeat;
+	background-size: cover;
+}
+	.swiper-panel-7 .title1{
+		position: absolute;
+		bottom:-17.6%;
+		z-index:2;
+	}
+	.swiper-panel-7 .title2{
+		position: absolute;
+		bottom:-31.3%;
+		z-index:2;
+	}
+	.swiper-panel-7 .title1 img,.swiper-panel-7 .title2 img{
+		width: 100%;
+	}
+	.swiper-panel-7 .img_per{ background:url("panel_7_txt_3-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_7_txt_3.png*/ center bottom no-repeat;background-size: cover; width:100%; position:relative; z-index:0; height:100%; right:-100%;}
+	.swiper-panel-7 .img_bg2 img{width:100%; background:url("panel_7_txt_4-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_7_txt_4.png*/ center bottom no-repeat;background-size: cover; height:100%; position:relative; z-index:2;}
+	
+
+/*面板8*/
+.swiper-panel-8{
+	background:url("panel_8_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_8_bg.jpg*/ center bottom no-repeat;
+	background-size: 100% 100%;
+}
+	.swiper-panel-8 .title1{
+		position: absolute;
+		top:-23.3%;
+		z-index:5
+	}
+	.swiper-panel-8 .title2{
+		position: absolute;
+		top:-33.7%;
+		z-index:5
+	}
+	.swiper-panel-8 .title1 img,.swiper-panel-8 .title2 img{
+		width: 100%;
+	}
+	.swiper-panel-8 .img_bg2{width:100%; background:url("panel_8_bg2-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_8_bg2.jpg*/ center bottom no-repeat;background-size: cover; height:100%; position:relative; z-index:2; display:none;}
+	.swiper-panel-8 .img_dg_4{width:100%; position:absolute; height:100%; z-index:4; top:0; left:0;}
+	.swiper-panel-8 .img_dg_4 div{height:100%; width:100%; display:none; position:absolute;}
+    .swiper-panel-8 .img_dg_4 .dg_1{ background:url("panel_8_dg_1-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_8_dg_1.png*/ no-repeat;background-size: cover;}
+	.swiper-panel-8 .img_dg_4 .dg_2{ background:url("panel_8_dg_2-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_8_dg_2.png*/ no-repeat;background-size: cover; }
+	.swiper-panel-8 .img_dg_4 .dg_3{ background:url("panel_8_dg_3-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_8_dg_3.png*/ no-repeat;background-size: cover; }
+	.swiper-panel-8 .img_dg_4 .dg_4{ background:url("panel_8_dg_4-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_8_dg_4.png*/ no-repeat;background-size: cover; }
+	.swiper-panel-8 .img_dg_4 .dg_5{ background:url("panel_8_dg_5-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_8_dg_5.png*/ no-repeat;background-size: cover; }
+/*面板9*/
+.swiper-panel-9{
+	background:url("panel_9_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_9_bg.jpg*/ no-repeat;
+	background-size: cover;
+}
+	.swiper-panel-9 .title1{
+		position: absolute;
+		bottom:-17.6%;
+		z-index:2;
+	}
+	.swiper-panel-9 .title2{
+		position: absolute;
+		bottom:-31.3%;
+		z-index:2;
+	}
+	.swiper-panel-9 .title1 img,.swiper-panel-9 .title2 img{
+		width: 100%;
+	}
+	.swiper-panel-9 .img_per{ background:url("panel_9_txt_3.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_9_txt_3.png*/ no-repeat;background-size: cover; width:100%; position:relative; z-index:0; height:100%; right:-100%;}
+	.swiper-panel-9 .img_bg2 img{width:100%; background:url("panel_9_txt_4.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_9_txt_4.png*/ no-repeat;background-size: cover; height:100%; position:relative; z-index:2;}
+	/*面板10*/
+	.swiper-panel-10{
+		background:url("panel_10_bg.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_10_bg.png*/ no-repeat;
+		background-size: 100% 100%;
+	}
+	.swiper-panel-10 .title1{
+		position: absolute;
+		top:-28.91%;
+	}
+	.swiper-panel-10 .title2{
+		position: absolute;
+		top:-20.68%;
+	}
+	.swiper-panel-10 .title3{
+		position:absolute;
+		bottom:-100%;
+		}
+	.swiper-panel-10 .title1 img,.swiper-panel-10 .title2 img,.swiper-panel-10 .title3 img{
+		width: 100%;
+	}
+
+/*面板11*/
+.swiper-panel-11{
+	background:url("panel_11_bg.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_11_bg.jpg*/ no-repeat;
+	background-size: cover;
+}
+	.swiper-panel-11 .title1{
+		position: absolute;
+		bottom:-17.6%;
+		z-index:2;
+	}
+	.swiper-panel-11 .title2{
+		position: absolute;
+		bottom:-31.3%;
+		z-index:2;
+	}
+	.swiper-panel-11 .title1 img,.swiper-panel-11 .title2 img{
+		width: 100%;
+	}
+	.swiper-panel-11 .img_per{ background:url("panel_11_txt_3.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_11_txt_3.png*/ no-repeat;background-size: cover; width:100%; position:relative; z-index:0; height:100%; right:-100%;}
+	.swiper-panel-11 .img_bg2 img{width:100%; background:url("panel_11_txt_4.png")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_11_txt_4.png*/ no-repeat;background-size: cover; height:100%; position:relative; z-index:2;}
+	
+
+/*面板12*/
+.swiper-panel-12{
+	background:url("panel_12_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_12_bg.jpg*/ no-repeat;
+	background-size: cover;
+}
+	.swiper-panel-12 .title0{
+		position: absolute;
+		top:35.15%; 
+	}
+	.swiper-panel-12 .title0 img{
+		width: 100%;
+	}
+	.swiper-panel-12 .title1{
+		position: absolute;
+		top:35.15%;
+		left:-100%;
+	}
+	.swiper-panel-12 .title2{
+		position: absolute;
+		top:35.15%;
+		right:-100%;
+	}
+	.swiper-panel-12 .title3{
+		position: absolute;
+		top:43.15%;
+		left:-100%;
+	}
+	.swiper-panel-12 .title4{
+		position: absolute;
+		top:43.15%;
+		right:-100%;
+	}
+	.swiper-panel-12 .title5{
+		position: absolute;
+		top:50.15%;
+		left:-100%;
+	}
+	.swiper-panel-12 .title6{
+		position: absolute;
+		top:50.15%;
+		right:-100%;
+	}
+	.swiper-panel-12 .title7{
+		position: absolute;
+		top:57%;
+		width:100%;
+	}
+	.swiper-panel-12 .title8{
+		position: absolute;
+		bottom:14%;
+		width:100%;
+	}
+	.swiper-panel-12 .title9{
+		position: absolute;
+		bottom:3%;
+		width:100%;
+	}
+	.swiper-panel-12 .title1 img,.swiper-panel-12 .title2 img,.swiper-panel-12 .title3 img,.swiper-panel-12 .title4 img,.swiper-panel-12 .title5 img,.swiper-panel-12 .title6 img,.swiper-panel-12 .title7 img{
+		width: 100%;
+	}
+	.swiper-panel-12 .title8 img,.swiper-panel-12 .title9 img{
+		width:48%;
+	}
+    .tips-box{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 0px;
+        background: #eee;
+        color: #000;
+        z-index:999;
+        display:none;
+        padding:6px 0px;
+    }
+
+/*面板13*/
+.swiper-panel-12 .form-box{
+	background:url("panel_13_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_13_bg.jpg*/ no-repeat;
+	background-size: cover;
+	width:100%;
+	height: 100%;
+	position: absolute;
+}
+	.swiper-panel-12 .form-box .title1{
+		position: absolute;
+		/*top:-30%;*/
+		top:9%;
+	}
+	.swiper-panel-12 .form-box .title1 img{
+		width: 100%;
+	}
+	.swiper-panel-12 .form-box .form{
+		position: absolute;
+		top:34%;
+		font-size: 0.8em;
+		width:90%;
+		margin:0% 5%;
+		color:#cccccc;
+	}
+	.swiper-panel-12 .form-box .form tbody{
+		line-height: 32px;
+	}
+	.swiper-panel-12 .form-box .form input{
+		border:1px solid #4c4c4c;
+		background:#202020;
+		padding:3px;
+		color:#eee;
+	}
+	.swiper-panel-12 .form-box .form .left{
+		text-align: left;
+	}
+
+	.swiper-panel-12 .errorBox{
+		position: absolute;
+		top:34%;
+		width:100%;
+		font-size: 16px;
+		color:#cccccc;
+		font-weight: bold;
+	}
+
+/*面板14*/
+.sign-box{
+	background:url("panel_14_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_14_bg.jpg*/ no-repeat;
+	
+	background-size: cover;
+	width:100%;
+	height: 100%;
+	position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+	.sign-box .save{
+		display: inline-block;
+		position: absolute;
+		width:10.78%;
+		height:5.566%;
+		top:2.246%;
+		left:85.78%;
+	}
+	.sign-box .title1{
+		position: initial;
+	}
+	.sign-box .title1 img{
+		width: 100%;
+	}
+	.sign-box .main{
+		text-align: left;
+		width:90%;
+		margin:0% 5%;
+		color:#ccc;
+		margin-top: -35px;
+		font-size: 10px;
+	}
+    .sign-box .QRCode{
+        text-align:center;
+    }
+	.sign-box .QRCode img{
+		width:40%;
+	}
+	.sign-box .QRCode .tips{
+		text-align: center;
+		width:100%;
+		font-size: 10px;
+        color:#ccc;
+	}
+    .img-screen{
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+/*面板15*/
+.swiper-panel-12 .success-box{
+	background:url("panel_15_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_15_bg.jpg*/ no-repeat;
+	background-size: cover;
+	width:100%;
+	height: 100%;
+	position: absolute;
+}
+	.swiper-panel-12 .success-box .title1{
+		position: absolute;
+		top:0%;
+	}
+	.swiper-panel-12 .success-box .title2{
+		position: absolute;
+		top:45.4%;
+	}
+	.swiper-panel-12 .success-box .title1 img,.swiper-panel-12 .success-box .title2 img{
+		width: 100%;
+	}
+    
+.swiper-panel-13{
+	background:url("panel_15_bg-1.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/panel_15_bg.jpg*/ no-repeat;
+	background-size: cover;
+}
+	.swiper-panel-13 .title1{
+		position: absolute;
+		top:0%;
+	}
+	.swiper-panel-13 .title2{
+		position: absolute;
+		top:45%;
+	}
+	.swiper-panel-13 .title1 img,.swiper-panel-13 .title2 img{
+		width: 100%;
+	}
+
+/*弹框*/
+.modal{
+	position: absolute;
+	background: #fff;
+	border-radius: 10px;
+	top: 20%;
+	border: 1px solid #999;
+	opacity: .9;
+	color: #333;
+	text-align: left;
+	width: 90%;
+	margin: 0 5%;
+	position: relative;
+}
+	.modal .close{
+		position: absolute;
+		right:10px;
+		top:-5px;
+		cursor: pointer;
+		font-size:30px;
+	}
+	.modal table{
+		width: 100%;
+		margin:20px 10px 10px 10px;
+	}
+	
+
+
+/*滑动取电子票*/
+.wall{
+	height: 50%;
+	position: absolute;
+	top: 25%;
+	z-index:3;
+}
+.wall img{
+	height:100%;
+}
+.wall-bg {
+	height: 38.338%;
+	position: absolute;
+	top: 30.831%;
+	z-index:2;
+	left: -85%;
+	width:95%;
+	background:url("ticket-tiket2-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/ticket-tiket2.png*/ no-repeat;
+	background-size: 100% 100%;
+}
+.wall-bg img{
+	height:100%;
+}
+.wall-bg .content{
+	color:#333;
+	text-align: left;
+	padding: 5px 70px 0px 10px;
+}
+.wall-bg .content p{
+	margin:5px 0px;
+}
+.wall-arrow{
+	height: 21.127%;
+	position: absolute;
+	top:45.4365%;
+	right: 10%;
+}
+.wall-arrow img{
+	width: 80%;
+}
+.wall-qr-txt{
+	position: absolute;
+	top:38%;
+	width:100%;
+	opacity:0;
+}
+.wall-qr-txt img{
+	width:50%;
+	margin:0% 20%;
+}
+.wall-qr-img{
+	position: absolute;
+	top:50.8%;
+	color: #333;
+	width: 100%;
+}
+.wall-qr-img img{
+	width:50%;
+	margin:0% 25%;
+}
+
+
+/*动画*/
+@keyframes fengJump {
+	0%   {transform:translateY(0); opacity: .2;}
+	20%  {transform:translateY(0); opacity: .3;}
+	40%  {transform:translateY(-15px); opacity: .7;}
+	50%  {transform:translateY(0); opacity: .5;}
+	60%  {transform:translateY(-10px); opacity: .7;}
+	80%  {transform:translateY(0); opacity: .3;}
+	100% {transform:translateY(0); opacity: .2;}
+}
+@-webkit-keyframes fengJump {
+	0%   {-webkit-transform:translateY(0); opacity: .2;}
+	20%  {-webkit-transform:translateY(0); opacity: .3;}
+	40%  {-webkit-transform:translateY(-15px); opacity: .7;}
+	50%  {-webkit-transform:translateY(0); opacity: .5}
+	60%  {-webkit-transform:translateY(-10px); opacity: .7}
+	80%  {-webkit-transform:translateY(0); opacity: .3}
+	100% {-webkit-transform:translateY(0); opacity: .2}
+}
+@-moz-keyframes fengJump {
+	0%   {-moz-transform:translateY(0); opacity: .2;}
+	20%  {-moz-transform:translateY(0);opacity: .3;}
+	40%  {-moz-transform:translateY(-15px); opacity: .7;}
+	50%  {-moz-transform:translateY(0); opacity: .5}
+	60%  {-moz-transform:translateY(-10px);  opacity: .7}
+	80%  {-moz-transform:translateY(0);  opacity: .3}
+	100% {-moz-transform:translateY(0);  opacity: .2}
+}
+@-ms-keyframes fengJump {
+	0%   {-ms-transform:translateY(0); opacity: .2;}
+	20%  {-ms-transform:translateY(0);opacity: .3;}
+	40%  {-ms-transform:translateY(-15px); opacity: .7;}
+	50%  {-ms-transform:translateY(0); opacity: .5}
+	60%  {-ms-transform:translateY(-10px); opacity: .7}
+	80%  {-ms-transform:translateY(0);  opacity: .3}
+	100% {-ms-transform:translateY(0);}
+}
+@-o-keyframes fengJump {
+	0%   {-o-transform:translateY(0); opacity: .2;}
+	20%  {-o-transform:translateY(0);opacity: .3;}
+	40%  {-o-transform:translateY(-15px); opacity: .7;}
+	50%  {-o-transform:translateY(0); opacity: .5}
+	60%  {-o-transform:translateY(-10px); opacity: .7}
+	80%  {-o-transform:translateY(0);  opacity: .3}
+	100% {-o-transform:translateY(0);  opacity: .2}
+}
+
+
+/*手引指示按钮*/
+.next {
+	-webkit-animation: fengJump 2.5s infinite;
+	   -moz-animation: fengJump 2.5s infinite;
+	    -ms-animation: fengJump 2.5s infinite;
+	     -o-animation: fengJump 2.5s infinite;
+	        animation: fengJump 2.5s infinite;
+}
+
+/*箭头*/
+.swiper-slide .arrow-bottom{
+	width:100%;
+	position: absolute;
+	bottom:5px;
+	text-align: center;
+    z-index:9999;
+}
+.swiper-slide .arrow-bottom img{
+	width:30px;
+	margin:0 auto;
+	opacity: .2;
+}
+
+
+/*拉链启动*/
+.start-panel{
+	background:#000;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background-size: cover;
+}
+.start-panel .zipper-bg{
+	background:#999;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("p01.jpg")/*tpa=http://www.yyq.com/apps/zhuj/img/start/p01.jpg*/;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.start-panel .zipper{
+	position: absolute;
+	width:10%;
+	height:32.81%;
+	left: 51.588%;
+	top:43.65%;
+	z-index:9;
+	-webkit-transform: rotate(-12deg);
+}
+.start-panel .zipper-arrow{
+	position: absolute;
+	left: 51.08055%;
+	top:44.96316%;
+	width:2.554027%;
+	height: 3.194103%;
+	background-image:url("zipper_arrow.png")/*tpa=http://www.yyq.com/apps/zhuj/img/start/zipper_arrow.png*/;
+}
+
+.swing{
+    -webkit-animation:swinging 4s linear 0s infinite;
+    -moz-animation:swinging 4s linear 0s infinite;
+    animation:swinging 4s linear 0s infinite;
+    -webkit-transform-origin:50% 0;
+    -moz-transform-origin:50% 0;
+    transform-origin:50% 0;
+}
+@-webkit-keyframes swinging{
+    0% { -webkit-transform: rotate(15deg); }
+    10% { -webkit-transform: rotate(-14deg); }
+    20% { -webkit-transform: rotate(14deg); }
+    30% { -webkit-transform: rotate(-13deg); }
+    40% { -webkit-transform: rotate(0); }
+    50% { -webkit-transform: rotate(0); }
+    60% { -webkit-transform: rotate(15deg); }
+    70% { -webkit-transform: rotate(-14deg); }
+    80% { -webkit-transform: rotate(14deg); }
+    90% { -webkit-transform: rotate(-13deg); } 
+    95% { -webkit-transform: rotate(0); }
+    100% { -webkit-transform: rotate(15deg); }
+}
+
+
+/*声音*/
+.audio-con{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width:30px;
+	height:30px;
+	z-index: 9;
+}
+.audio-con-on{
+	background:url("audio_on-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/audio_on.png*/ no-repeat;
+	background-size: 100% 100%;
+}
+.audio-con-off{
+	background:url("audio_off-1.png")/*tpa=http://www.yyq.com/apps/zhuj/img/audio_off.png*/ no-repeat;
+	background-size: 100% 100%;
+}
+
+
+
+
+
+/*刮刮乐*/
+.none { display:none;}
+.cont {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+	opacity: 0;
+}
+.current {
+	z-index: 15;
+	opacity: 1;
+}
+#card {
+	position: absolute;
+	z-index: 60;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.cont {width:100%;height:100%;color:#fff;position:absolute;z-index:10;top:0;left:0;background-position:0 0;background-repeat:no-repeat;-webkit-background-size:100% auto;
+background-size:100% auto;opacity:0;}
+.current {z-index:15;opacity:1;}
+.currentN {z-index:20;opacity:1;}
+@-webkit-keyframes hand {
+	0% {opacity: 1;-webkit-transform: translate(-20px,-20px);}
+	100% {opacity: 1;-webkit-transform: translate(20px,20px);}
+}
+
+.img_hand {
+	position: absolute;
+	z-index: 61;
+	top: 25%;
+	left: 40%;
+	width:30%;
+	-webkit-animation: hand 1.5s infinite ease-in-out;
+	-moz-animation: hand 1.5s infinite ease-in-out;
+	animation: hand 1.5s infinite ease-in-out;
+}
